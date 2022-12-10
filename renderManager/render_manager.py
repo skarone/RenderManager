@@ -4,6 +4,6 @@ The manager takes cares of handling the different renderers/plugins.
 
 """
 
-class RenderManager(object):
-    def __init__(self):
-        pass
+def get_plugins(name=None, dcc=None, can_farm=False):
+    """Get plugins based on DCC."""
+    pass
